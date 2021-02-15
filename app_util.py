@@ -8,8 +8,8 @@ import json
 
 
 class AppUtil:
-    store_path = 'app/store.json'
-    fig_dir_path = 'app/figures'
+    store_path = 'store.json'
+    fig_dir_path = 'figures'
 
     def set_store_path(self, path):
         AppUtil.store_path = path
@@ -109,3 +109,7 @@ class AppUtil:
             paths.append(png_path)
 
         return paths
+
+
+app_util = AppUtil()
+app_util.gen_plot("AAPL", 45)
