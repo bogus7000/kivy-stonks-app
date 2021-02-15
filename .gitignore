@@ -130,6 +130,3 @@ dmypy.json
 
 # VSCode files
 .vscode/
-
-# App Specific
-figures/
