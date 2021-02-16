@@ -5,9 +5,18 @@
   - [Local Setup - macOS - using ZSH shell](#local-setup---macos---using-zsh-shell)
   - [Local Setup - Linux - Pop! OS - using ZSH shell - Debian Based (Ubuntu, Pop! OS, Linux Mint, etc.)](#local-setup---linux---pop-os---using-zsh-shell---debian-based-ubuntu-pop-os-linux-mint-etc)
 
-# Quiz App - Final Project for Python Class
+# Kivy Stonks App - ticker price tracking app made in kivy - 100% Python
 
-This is a repo for the final quiz app for Python Class. Created by Asia, Bogdan and Antoni.
+Stonks is a simple app with two tabs: Dashboard and Settings
+
+Settings Tab contains a plain input field which expects a comma separated list of tickers. Once the tickers are entered, user updates the Dashboard tab by pressing the "Update dashboard" button.
+![Settings Tab](assets/settings-1.png "Settings Tab")
+![Settings Tab](assets/settings-2.png "Updating Dashboard in the Settings Tab")
+
+Dashboard Tab displays candle charts for the period of 45 days and the last price of tickers set in the Settings Tab
+![Dasboard Tab](assets/dashboard-1.png "Dashboard Tab")
+
+Created by Asia, Bogdan and Antoni.
 
 ## Local Setup - macOS - using ZSH shell
 
@@ -90,9 +99,10 @@ Done! You can now run and develop painlessly.
 Install pyenv build dependencies.
 
 ```bash
-# Xcode Command Line Tools
-sudo apt-get update
-sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+# Update apt
+sudo apt update
+# Install dependencies
+sudo apt install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
 Check out pyenv where you want it to be installed and clone the repository.
