@@ -10,11 +10,13 @@
 Stonks is a simple app with two tabs: Dashboard and Settings
 
 Settings Tab contains a plain input field which expects a comma separated list of tickers. Once the tickers are entered, user updates the Dashboard tab by pressing the "Update dashboard" button.
+
 ![Settings Tab](assets/settings-1.png "Settings Tab")
 ![Settings Tab](assets/settings-2.png "Updating Dashboard in the Settings Tab")
 
 Dashboard Tab displays candle charts for the period of 45 days and the last price of tickers set in the Settings Tab
-![Dasboard Tab](assets/dashboard-1.png "Dashboard Tab")
+
+![Dasboard Tab](assets/dashboard.png "Dashboard Tab")
 
 Created by Asia, Bogdan and Antoni.
 
