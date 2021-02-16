@@ -1,11 +1,11 @@
-# kivy-stonks-app
+## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Quiz App - Final Project for Python Class](#quiz-app---final-project-for-python-class)
-  - [Local Setup - macOS - using ZSH shell](#local-setup---macos---using-zsh-shell)
-  - [Local Setup - Linux - Pop! OS - using ZSH shell - Debian Based (Ubuntu, Pop! OS, Linux Mint, etc.)](#local-setup---linux---pop-os---using-zsh-shell---debian-based-ubuntu-pop-os-linux-mint-etc)
+- [Kivy Stonks App - ticker price tracking app made in kivy](#kivy-stonks-app---ticker-price-tracking-app-made-in-kivy)
+- [Local Setup - macOS - using ZSH shell](#local-setup---macos---using-zsh-shell)
+- [Local Setup - Linux - Pop! OS - using ZSH shell](#local-setup---linux---pop-os---using-zsh-shell)
 
-# Kivy Stonks App - ticker price tracking app made in kivy - 100% Python
+## Kivy Stonks App - ticker price tracking app made in kivy
 
 Stonks is a simple app with two tabs: Dashboard and Settings
 
@@ -50,7 +50,7 @@ Clone the repository.
 ```bash
 cd [direcotry you want for this project]
 git clone [this repo clone link]
-cd python-sem5-final-project
+cd kivy-stonks-app
 ```
 
 Set a local version for Python (for current direcotry only).
@@ -75,28 +75,25 @@ poetry --version
 Install a pre-existing poetry project with dependencies.
 
 ```bash
-# Assuming youre in repository root
 # Navigate to project folder
-cd quiz-app
+cd kivy-stonks-app
 # Install poetry project
 poetry install
 ```
 
-Place `firebase-secret.json` into `quiz-app` directory. Contact repo owner if you did not receive the file.
-
-Run test script to verify that setup is complete.
+Run `main.py` script to verify that setup is complete.
 
 ```bash
 # Start a poetry shell
 poetry shell
 
 # Inside the shell now
-poetry run python ./quiz_app/__init__.py
+poetry run python main.py
 ```
 
 Done! You can now run and develop painlessly.
 
-## Local Setup - Linux - Pop! OS - using ZSH shell - Debian Based (Ubuntu, Pop! OS, Linux Mint, etc.)
+## Local Setup - Linux - Pop! OS - using ZSH shell
 
 Install pyenv build dependencies.
 
@@ -143,7 +140,7 @@ Clone the repository.
 ```bash
 cd [directory you want for this project]
 git clone [this repo clone link]
-cd python-sem5-final-project
+cd kivy-stonks-app
 ```
 
 Set a local version for Python (for current direcotry only).
@@ -171,23 +168,20 @@ poetry --version
 Install a pre-existing poetry project with dependencies.
 
 ```bash
-# Assuming youre in repository root
 # Navigate to project folder
-cd quiz-app
+cd kivy-stonks-app
 # Install poetry project
 poetry install
 ```
 
-Place `firebase-secret.json` into `quiz-app` directory. Contact repo owner if you did not receive the file.
-
-Run test script to verify that setup is complete.
+Run `main.py` script to verify that setup is complete.
 
 ```bash
 # Start a poetry shell
 poetry shell
 
 # Inside the shell now
-poetry run python ./quiz_app/__init__.py
+poetry run python main.py
 ```
 
 Done! You can now run and develop painlessly.
